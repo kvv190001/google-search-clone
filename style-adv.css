@@ -1,0 +1,102 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header div{
+    padding: 20px 40px 20px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    padding-left: 30px;
+    color: red;
+    font-weight: 400;
+}
+
+h4{
+    font-weight: 400;
+}
+
+main{
+    padding:10px 0 0 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+form p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.words{
+    width: 500px;
+    height: 20px;
+}
+
+#submit{
+    padding: 5px 10px 5px 10px;
+    float: right;
+    background-color: #4d90fe;
+    color: white;
+    border: 1px solid #3079ed;
+    border-radius: 3px;
+}
+
+form div{
+    justify-content: right;
+}
+
+#description h5{
+    margin-left: 10px;
+}
+
+#description p{
+    margin-left: 20px;
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+}
+
+footer{
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #70757a;
+}
+
+footer div{
+    display: flex;
+    align-items: center;    
+    gap: 10px;
+    margin: 10px 30px 10px 20px;
+    color: #70757a;
+}
+
+
+

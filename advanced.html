@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Google Search">
+    <meta name="author" content="Viet Khue Vu">
+    <title>Advanced Search Clone</title>
+    <link rel="icon" href="https://freesvg.org/img/1534129544.png" type="image/x-icon">
+    <link rel="stylesheet" href="style-adv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google"
+                width="80px">
+        </div>
+        <div>
+            <a href="index.html">Google Search</a>
+            <a href="img.html">Images</a>
+        </div>
+    </header>
+
+    <h2>Advanced Search</h2>
+    <hr>
+
+    <main>
+        <div>
+            <h4>Find pages with...</h4>
+            <form action="https://www.google.com/search">
+                <p>
+                    <label>all these words:</label>
+                    <input type="text" name="q" class="words">
+                </p>
+                <p>
+                    <label>this exact word or phrase:</label>
+                    <input type="text" name="as_epq" class="words">
+                </p>
+                <p>
+                    <label>any of these words:</label>
+                    <input type="text" name="as_oq" class="words">
+                </p>
+                <p>
+                    <label>none of these words:</label>
+                    <input type="text" name="as_eq" class="words">
+                </p>
+                <div id="submit_block">
+                    <input type="submit" value="Advanced Search" id="submit">
+                </div>
+            </form>
+        </div>
+
+        <div id="description">
+            <h5>To do this in the search box</h5>
+            <p>Type the important words: tricolor rat terrier</p>
+            <p>Put exact words in quotes: "rat terrier"</p>
+            <p>Type OR between all the words you want: miniature OR standard</p>
+            <p>Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</p>
+        </div>
+
+    </main>
+</body>
+
+<footer>
+    <div>
+        <a href="https://support.google.com/websearch/?visit_id=637926823644168592-3828256721&hl=en&rd=2#topic=3378866">Help</a>
+        <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+        <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+    </div>
+    <div>
+        Copyright &copy; Viet Khue Vu
+    </div>
+</footer>
